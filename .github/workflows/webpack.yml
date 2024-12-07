@@ -42,7 +42,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
+          # Deploy from gh-page folder
           path: 'gh-page'
 
   # Deployment job
